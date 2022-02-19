@@ -1,0 +1,131 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: url(../images/money.jpg);
+  background-size: cover;
+  background-position: center;
+  font-family: sans-serif;
+}
+
+.loginbox {
+  width: 320px;
+  height: auto;
+  background: rgb(76, 175, 80);
+  color: white;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  padding: 40px 30px;
+  box-shadow: gray;
+  border-radius: 10px;
+  box-shadow: 0 9px 30px rgb(0 0 0 / 0.2);
+}
+
+.avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: absolute;
+  top: -50px;
+  left: calc(50% - 50px);
+}
+
+h1 {
+  margin: 30px 0 0 0;
+  padding: 0 0 20px;
+  text-align: center;
+  font-size: 24px;
+}
+
+.loginbox p {
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  text-align: left;
+}
+
+.loginbox .inputLabel p {
+  display: inline;
+}
+#errorEmail,
+#errorPassword {
+  color: rgb(255, 65, 65);
+}
+
+.loginbox input {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.loginbox input {
+  padding: 0 5px;
+
+  border: none;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+  outline: none;
+  height: 40px;
+  color: #fff;
+  font-size: 16px;
+}
+
+.loginbox input:focus {
+  border-bottom: 2px solid white;
+  color: white;
+  opacity: 1;
+}
+
+::placeholder {
+  color: white;
+  opacity: 0.5;
+}
+
+.loginbox button {
+  border: none;
+  outline: none;
+  height: 40px;
+  background: #087f23;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 10px;
+  width: 100%;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+
+.loginbox button:hover {
+  cursor: pointer;
+  background: #80e27e;
+  transition: all 0.3s ease;
+}
+
+.loginbox button:active {
+  transform: scale(0.95);
+  background: #80e27e;
+}
+
+.loginbox .link {
+  width: 100%;
+  text-align: center;
+}
+
+.loginbox a {
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 20px;
+  width: 50px;
+  color: white;
+  text-align: right;
+}
+
+.loginbox a:hover {
+  color: #087f23;
+  text-decoration: underline;
+  transition: all 0.3s ease;
+}
